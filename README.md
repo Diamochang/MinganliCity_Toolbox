@@ -35,7 +35,7 @@ pip install PyInstaller
 pip install PyQt5
 pip install qrcode
 pip install barcode
-pip install "PyQt-Fluent-Widgets[full]" -i https://pypi.org/simple/
+pip install "PyQt-Fluent-Widgets[full]"
 ```
 
 这里还应包括你自行添加的依赖。需要注意，`PyQt-Fluent-Widgets`必须按照给出的命令安装完整版，否则编译会出错。这是由于`AcrylicLabel`在非完整版中不可用，而项目正好使用了它。
